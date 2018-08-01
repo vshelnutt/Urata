@@ -42,7 +42,7 @@ background-color: $color-white;
     z-index: -1;
     transition: all .4s;
  }	
- $--animated {
+ &--animated {
   animation: moveInBottom .5s ease-out .75s;
 animation-fill-mode: backwards;
  }
