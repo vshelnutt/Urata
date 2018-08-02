@@ -49,9 +49,9 @@ animation-fill-mode: backwards;
  }
 }
 
-.btn-text,
-	btn-text.link,
-	btn-text.visited {
+a.btn-text, {
+&:link,
+&:visited {
 		font-size: $default-font-size;
      color: $color-primary;
      display: inline-block;
