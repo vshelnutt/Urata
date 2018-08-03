@@ -112,7 +112,9 @@ body {
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 1.7rem;
-    animation-name: moveInRight 1s ease-out; }
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out; }
     @media (max-width: 37.5em) {
       .heading-primary--sub {
         letter-spacing: .5rem; } }
@@ -210,7 +212,9 @@ body {
   .btn--animated,
   .btn.link--animated,
   .btn.visted--animated {
-    animation: moveInBottom .5s ease-out .75s;
+    animation: moveInBottom;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
     animation-fill-mode: backwards; }
 
 a.btn-text:link, a.btn-text:visited {

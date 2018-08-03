@@ -44,7 +44,9 @@ background-color: $color-white;
     transition: all .4s;
  }	
  &--animated {
-  animation: moveInBottom .5s ease-out .75s;
+  animation: moveInBottom;
+  animation-duration: 1s;
+animation-timing-function: ease-out;
 animation-fill-mode: backwards;
  }
 }
