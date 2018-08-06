@@ -45,6 +45,7 @@
     &--green {
         background-color: $color-primary;
         color: $color-white;
+        margin-top: .1rem;
 
         &::after {
             background-color: $color-primary;
