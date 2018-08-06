@@ -20,6 +20,9 @@ app.use(bodyParser.json());
 app.get('/', (req, res) => {
     res.render('index');
 });
+app.get('/contact', (req, res) => {
+    res.render('contact');
+});
 
 app.post('/send', (req, res) => {
    const output = `
