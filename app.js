@@ -67,7 +67,7 @@ transporter.sendMail(mailOptions, (error, info) => {
     console.log('Message sent: %s', info.messageId);
     console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
-    res.render('index', {msg:'Email has been sent'});
+    res.render('index', {msg:'Success! We will contact you as soon as possible!'});
 });
 });
 
