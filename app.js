@@ -30,12 +30,9 @@ app.post('/send', (req, res) => {
    <h3>Contact Details</h3>
    <ul>
     <li>Name: ${req.body.name}</li>
-    <li>Company: ${req.body.company}</li>
     <li>Email: ${req.body.email}</li>
     <li>Phone: ${req.body.phone}</li>
    </ul>
-   <h3>Messages</h3>
-   <p>${req.body.message}</p>
    `;
 
 
@@ -70,7 +67,7 @@ transporter.sendMail(mailOptions, (error, info) => {
     console.log('Message sent: %s', info.messageId);
     console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
-    res.render('contact', {msg:'Email has been sent'});
+    res.render('index', {msg:'Email has been sent'});
 });
 });
 

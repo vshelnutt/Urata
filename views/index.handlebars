@@ -19,6 +19,7 @@
     </div>
     <div class="header__text-box">
         <h1 class="heading-primary">
+              {{msg}}
             <span class="heading-primary--main">Urada</span>
             <span class="heading-primary--sub">Affordable dentistry</span>
         </h1>
@@ -112,8 +113,8 @@
     <div class="row">
         <div class="book">
             <div class="book__form">
-                <form action="#" class="form">
-                    <div class="u-margin-bottom-medium">
+                <form action="send" method="POST" class="form">
+                    <div class="u-margin-bottom-small">
                      <h2 class="heading-secondary">
                      Reserve your spot now!
                     </h2>
@@ -122,12 +123,15 @@
                         <input class="form__input" type="text" name="name" placeholder="Full Name" required>
                         <label class="form__label" for="name">Full Name</label>
 
-                        <div class="form__group">
+                        <input class="form__input" type="text" name="phone" placeholder="Phone Number" required>
+                        <label class="form__label" for="phone">Phone Number</label>
+
+                        
                         <input class="form__input" type="email" name="email" placeholder="Email" required>
                         <label class="form__label" for="name">Email</label>
                     </div>
                     <div class="form__group">
-                        <button class="btn btn--green">next step &rarr;</button>
+                        <button type="submit" class="btn btn--green">Submit &rarr;</button>
                     </div>
 
 
