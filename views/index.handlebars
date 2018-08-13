@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="../public/css/style.css">
     <link rel="shortcut icon" type="image/png" href="../public/img/favicon.png">
 
-    <title>Dr. Urada</title>
+    <title>Ohana Dental</title>
 </head>
 <body>
-    <header class="header">Ohana Dentistry
+    <header class="header">Dr. Urada
        <div class="header__logo-box">
         <img src="../public/img/logo-white.png" alt="logo" class="header__logo">
     </div>
@@ -23,7 +23,7 @@
             <span class="heading-primary--main">Ohana</span>
             <span class="heading-primary--sub">Dentistry</span>
         </h1>
-        <a href="#" class="btn btn--white btn--animated">
+        <a href="#about" class="btn btn--white btn--animated">
           More Info
         </a>
     </div>
@@ -32,23 +32,21 @@
 <main>
     <section class="section-about">
         <div class="u-center-text u-margin-bottom-big">    
-        <h2 class="heading-secondary">
+        <h2 class="heading-secondary"  id="about">
             Affordable pricing with uncomprimised service
         </h2>
         </div>
 
         <div class="row">
                 <div class="col-1-of-2">
-                  <h3 class="heading-tertiary u-margin-bottom-small">A dentist you'll actually enjoy going to see</h3>
+                  <h3 class="heading-tertiary u-margin-bottom-small">Limited appointment slots at a low introductory price</h3>
                   <p class="paragraph">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquam quas, fugit dicta similique blanditiis sint nisi, repellendus, provident, quod impedit hic. Cupiditate placeat vitae, quas molestiae ducimus consequatur doloremque.
-                  </p>
+                             Make an appointment, they're filling up fast!           </p>
 
-                  <h3 class="heading-tertiary u-margin-bottom-small">Pain free on your wallet and your teeth</h3>
+                  <h3 class="heading-tertiary u-margin-bottom-small">Appointments starting out once per month</h3>
                   <p class="paragraph">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquam quas, fugit dicta similique blanditiis sint nisi, repellendus, provident, quod impedit hic. Cupiditate placeat vitae, quas molestiae ducimus consequatur doloremque.
-                  </p>
-                  <a href="#" class="btn-text">Learn More &rarr;</a>
+                      We are currently only able to offer appointments one day per month as an introductory service. This helps keep costs down and we pass that along to you. Please contact us for further information.                  </p>
+                  <a href="#info" class="btn-text">Learn More &rarr;</a>
                 </div>
                 <div class="col-1-of-2">
                   <div class="composition">
@@ -65,7 +63,7 @@
 
 
     <div class="row">
-        <div class="col-1-of-4">
+        <div class="col-1-of-4" id="info">
             <div class="feature-box">
                     <i class="feature-box__icon icon-basic-world"></i>
                     <h3 class="heading-tertiary u-margin-bottom-small">Email us</h3>
@@ -107,18 +105,63 @@
     </div>
 </section>
 
+<section class="section-stories">
+    <div class="u-center-text u-margin-bottom-big">    
+        <h2 class="heading-secondary"  id="about">
+           We genuinely care about helping people.<br>
+           Below are actual patient testimonials:
+        </h2>
+    </div>
+    <div class="row">
+        <div class="story">
+            <figure class="story__shape">
+                <img src="../public/img/nat-8.jpg" alt="Person from testimonial write-up" class="story__img">
+                <figcaption class="story__caption">
+                    Vince Shelnutt
+                </figcaption>
+            </figure>
+            <div class="soty__text">
+                <h3 class="heading-tertiary">An honest dentist who cares!</h3>
+                <p>
+                    Prior to seeing Dr. Urada, I thought I'd never be able to afford to get my teeth back in good condition. Dr. Urada explained to me that the other dentist was adding cosmetic procedures that I didn't want or need. I was able to get my mouth healthy for a fraction of the price! 
+                </p>
+            </div>
+         </div>
+    </div>
 
+     <div class="row">
+        <div class="story">
+            <figure class="story__shape">
+                <img src="../public/img/nat-9.jpg" alt="Person from testimonial write-up" class="story__img">
+                <figcaption class="story__caption">
+                    Vince Shelnutt
+                </figcaption>
+            </figure>
+            <div class="soty__text">
+                <h3 class="heading-tertiary">An honest dentist who cares!</h3>
+                <p>
+                    Prior to seeing Dr. Urada, I thought I'd never be able to afford to get my teeth back in good condition. Dr. Urada explained to me that the other dentist was adding cosmetic procedures that I didn't want or need. I was able to get my mouth healthy for a fraction of the price! 
+                </p>
+            </div>
+         </div>
+    </div>
 
-<section class="section-book">
+    <div class="u-center-text u-margin-top-huge">
+        <a href="#appointment" class="btn-text">Make Appointment &rarr;</a>
+    </div>
+</section>
+
+<section class="section-book" id="appointment">
     <div class="row">
         <div class="book">
             <div class="book__form">
-                <form action="send" method="POST" class="form">
-                    <div class="u-margin-bottom-small">
+                <form action="mailto: ohanadentisthouston@gmail.com" method="POST" class="form">
+                 <div class="u-margin-bottom-small">
                      <h2 class="heading-secondary">
                      Reserve your spot now!
                     </h2>
-                    </div>
+<p> Send us an email with your name, phone number and email address. We will contact you to arrange an appointment.
+                    <!--   </div>
                     <div class="form__group">
                         <input class="form__input" type="text" name="name" placeholder="Full Name" required>
                         <label class="form__label" for="name">Full Name</label>
@@ -129,9 +172,9 @@
                         
                         <input class="form__input" type="email" name="email" placeholder="Email" required>
                         <label class="form__label" for="name">Email</label>
-                    </div>
+                    </div> -->
                     <div class="form__group">
-                        <button type="submit" class="btn btn--green">Submit &rarr;</button>
+                        <button type="submit" class="btn btn--green">Email Us &rarr;</button>
                     </div>
 
 
